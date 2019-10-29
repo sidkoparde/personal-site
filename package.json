@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "next",
+    "deploy": "next build && next export"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "d3-ease": "^1.0.5",
+    "next": "^9.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.10.2",
+    "react-spring": "^8.0.27"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "prettier": "^1.18.2"
+  }
+}
